@@ -2,7 +2,7 @@ package com.demo.jdbc.test;
 
 import java.io.Serializable;
 
-//实体类
+//实体类用户
 public class User implements Serializable {
 
 	private static final long serialVersionUID = -1920880657025020838L;
