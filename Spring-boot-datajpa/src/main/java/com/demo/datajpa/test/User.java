@@ -19,7 +19,6 @@ public class User implements Serializable {
 	}
 
 	@Id
-	@GeneratedValue
 	private long id;
 
 	@Column(nullable = false, length = 10)
@@ -37,7 +36,6 @@ public class User implements Serializable {
 	@Column
 	private String email;
 
-	@Id
 	@GeneratedValue
 	public long getId() {
 		return id;
