@@ -17,5 +17,6 @@
     <modules>
         <module>spring-boot-helloworld</module>
         <module>spring-boot-jdbc</module>
+        <module>Spring-boot-datajpa</module>
     </modules>
 </project>
