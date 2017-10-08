@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper   
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="com.demo.mybatis.test.dao.UserDao">
+    <select id="getAllUsers" resultType="User">
+    select * from user
+    </select>
+    <select id="getUserByName" resultType="User" parameterType="String">
+    select * from user where name=#{name}
+    </select>
+    </mapper>
